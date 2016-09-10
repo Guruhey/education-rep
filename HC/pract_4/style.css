@@ -1,0 +1,16 @@
+ul{
+	font-size:16pt;
+}
+body{
+	background-color:lightblue;
+}
+h1{
+	text-align:center;
+}
+img{
+	margin: 0 auto;display:block;
+}
+a:link{color:#990000; font-weight:100;text-decoration:none;}
+a:visited{color:#CC9933;font-weight:100;text-decoration:none;}
+a:hover{color:#FF0033;font-weight:bold;text-decoration:underline;}
+a:active{color:#CC00FF;font-weight:bold;background-color:#000099;text-decoration:underline; }

@@ -1,0 +1,35 @@
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+body{
+	background:white;
+	margin:0;
+	padding:0;
+}
+#stihi{
+	font-size:23px;
+}
+#otst{
+	padding:0.2%;
+}
+ul{
+	list-style-type:none;
+}
+p{
+	margin:3%;
+	text-align:left;
+	font-size:18px;
+}
+img{
+	margin:0 auto;display:block;
+}
+li{
+	text-align:left;
+}
+a:link{color:#990000; font-weight:100;text-decoration:none;}
+a:visited{color:#CC9933;font-weight:100;text-decoration:none;}
+a:hover{color:#FF0033;font-weight:bold;text-decoration:underline;}
+a:active{color:#CC00FF;font-weight:bold;background-color:#000099;text-decoration:underline; }
