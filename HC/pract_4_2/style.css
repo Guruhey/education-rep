@@ -17,9 +17,9 @@ body{
 }
 .positive{
 position: fixed;
-left: 0;
+right: 0;
 bottom: 0;
-font-size:14px;
+font-size:22px;
 }
 ul{
 	list-style-type:none;
