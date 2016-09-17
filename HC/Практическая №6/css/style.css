@@ -1,0 +1,264 @@
+html { 
+	overflow-x:hidden;
+}
+*{
+	padding:0;
+	margin:0;
+}
+
+.header{
+	height:200px;
+	background-color:#080808;
+	font-family:"NewsGoth BT";
+	color: white;
+}
+@font-face {font-family: "NewsGoth BT";
+    src: url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.eot");
+    src: url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/910a51d316f89dc2f34e8a65ffdf29d5.svg#NewsGoth BT") format("svg");
+}
+.nadp{
+	margin-left:220px;
+	padding-top:18px;
+}
+.grn{
+	color:#70ba02;
+}
+.ideas{
+	font-size:15px;
+	position: relative;
+	bottom: -20px;
+	left: -140px;
+	color:#848484;
+}
+.shrf{
+	position:relative;
+	left:-45px;
+	margin-top:10px;
+	font-size:50px;
+	float: left;
+}
+.ic{
+	background-color:green;
+	border-radius:40px;
+	text-align:middle;
+}
+.menu a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+
+}
+.menu a:hover{
+	color:#70ba02;
+}
+.menu a:active{
+	text-decoration:none;
+	color:pink;
+	background-color:grey;
+}
+.menu ul{
+	list-style-type:none;
+	float:right;
+	width:528px;
+	margin:20px;
+	
+}
+.menu li{
+	display:inline;
+	font-size:20px;
+	border-right:solid 1px #212121;
+	padding:20px 15px 15px 20px;
+}
+.redac{
+	position:absolute;
+	left:750px;
+}
+.redac a{
+	font-size:30px;
+	padding-right:20px;
+}
+li:last-child{
+	border-right:none;
+}
+.menu3:hover{
+	background-color:black;
+}
+.pryam
+{
+    border-radius:40px;
+	width: 920px;
+	height:400px;
+    margin-left: 140px;
+    position: relative;
+    top: -90px;
+	background-color:white;
+	padding: 30px;
+	border:solid 1px grey;
+	box-shadow: 0 12px 4px -4px rgba(0, 0, 0, .2);   
+}
+.pryam img{
+	width:830px;
+	height:420px;
+	left:10px;
+	top:-375px;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+	position:relative;
+	float:right;
+}
+.menu3{
+	height: 70px;
+    width: 110px;
+    background-color: #f4f5f7;
+	position:relative;
+	margin-left:-380px;
+	margin-bottom:0.8px;
+	top:-70px;
+	background-color:#f4f5f7;
+	border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+	text-align:center;
+}
+.menu{
+	margin-top:40px;
+}
+.content 
+{
+	width:980px;
+    text-align: center;
+    color: #151515;
+	position:relative;
+	left:140px;
+	display:inline-block;
+	top:-390px;   
+}
+.content p{
+	margin-top:-20px;
+	margin-bottom:30px;
+	font-size:35px;
+}
+.content hr{
+	width:980px;
+	color:#dcdddf;
+}
+.menupr{
+	list-style-type:none;
+	width:220px;
+	height:40px;
+	position:relative;
+	top:-370px;
+	left:160px;
+}
+.menupr li{
+	text-decoration:none;
+	color:#dcdddf;
+	padding-top:11px;
+	padding-bottom:11px;
+	border-bottom:solid 1px;
+}
+.menupr a{
+	font-size:15px;
+}
+.menupr li:last-child{
+	border-bottom:none;
+}
+.menupr a:link{
+	text-decoration:none;
+	color:#808080;
+}
+.menupr a:visited{
+	text-decoration:none;
+	color:#808080;
+}
+.menupr a:hover{
+	color:#70ba02;
+	text-decoration:none;
+}
+.menupr a:active{
+	text-decoration:none;
+	color:grey;
+	background-color:pink;
+}
+.cen{
+	
+	position:absolute;
+	left:440px;
+	top:745px;
+}
+.cen img{
+	width:289px;
+	padding:5px;
+	border-radius:10px;
+	margin-top:9px;
+	margin-bottom:8px;
+	border:solid 1px #dcdddf;
+}
+.cen p{
+	color:#808080;
+	font-size:16px;
+	padding-bottom:3px;
+
+}
+.cen span{
+	color:black;
+	text-decoration:underline;
+}
+.rdmr{
+	top:1080px;
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:21px;
+	box-shadow:0px 0px 1px black;
+	font-size:16px;
+}
+.rdmr:hover{
+	background-color:#70ba02;
+}
+.rightmenu{
+	top:-395px;
+	position:relative;
+	right:-825px;
+}
+.rightmenu p{
+	font-size:15px;
+	margin-bottom:9.5px;
+	margin-top:9.5px;
+	width:400px;
+	color:grey;
+}
+.rightmenu hr{
+	width:350px;
+	color:#dcdddf;
+	margin-bottom:10px;
+}
+.rightmenu ul{
+	list-style-image:url(../icn.PNG);
+}
+.rightmenu li{
+	font-size:22px;
+	padding-bottom:6px;
+}
+.rdmr2{
+	top:1080px;
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:19px;
+	box-shadow:0px 0px 1px black;
+	font-size:16px;
+}
+.rdmr2:hover{
+	background-color:#70ba02;
+}

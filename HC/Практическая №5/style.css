@@ -49,14 +49,15 @@ img
 
 .block1 { 
     width: 100%; 
-	min-height:30%;
+	/*height:30;*/
+	/*min-height:0%;*/
     float: left;
    }
 .block2 { 
 	top: 0;
 	width: 50%;
 	/*height: 40%;*/
-	min-height:30%;
+	/*min-height:30%;*/
 	float: right;
 
    }
