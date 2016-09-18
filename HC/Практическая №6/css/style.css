@@ -292,3 +292,17 @@ li:last-child{
 .rdmr2:hover{
 	background-color:#70ba02;
 }
+.krug{
+	position:relative;
+	top:10px;
+	left:10px;
+	width:50px;
+	height:50px;
+	border-radius:100px;
+	color:white;
+}
+.textkrug{
+	position:relative;
+	top:13px;
+	left:-6px;
+}
