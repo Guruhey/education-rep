@@ -28,9 +28,9 @@ html {
 	color:#70ba02;
 }
 .ideas{
-	font-size:15px;
+	font-size:14px;
 	position: relative;
-	bottom: -20px;
+	bottom: -15px;
 	left: -140px;
 	color:#848484;
 }
@@ -71,7 +71,37 @@ html {
 	display:inline;
 	font-size:20px;
 	border-right:solid 1px #212121;
-	padding:20px 15px 15px 20px;
+	padding:20px 22px 15px 22px;
+}
+.menu2 a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+
+}
+.menu2 a:hover{
+	color:#70ba02;
+}
+.menu2 a:active{
+	text-decoration:none;
+	color:pink;
+	background-color:grey;
+}
+.menu2 ul{
+	list-style-type:none;
+	float:right;
+	width:528px;
+	margin:20px;
+	
+}
+.menu2 li{
+	display:inline;
+	font-size:20px;
+	border-right:solid 1px #212121;
+	padding:20px 24px 15px 24px;
+	position:relative;
+	left:-42px;
+	top:30px;
 }
 .redac{
 	position:absolute;
@@ -162,7 +192,7 @@ li:last-child{
 	border-bottom:solid 1px;
 }
 .menupr a{
-	font-size:15px;
+	font-size:15.4px;
 }
 .menupr li:last-child{
 	border-bottom:none;
@@ -200,7 +230,7 @@ li:last-child{
 }
 .cen p{
 	color:#808080;
-	font-size:16px;
+	font-size:16.5px;
 	padding-bottom:3px;
 
 }
