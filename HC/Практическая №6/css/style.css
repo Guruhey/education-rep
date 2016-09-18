@@ -28,9 +28,9 @@ html {
 	color:#70ba02;
 }
 .ideas{
-	font-size:14px;
+	font-size:14.5px;
 	position: relative;
-	bottom: -15px;
+	bottom: -16px;
 	left: -140px;
 	color:#848484;
 }
@@ -170,7 +170,7 @@ li:last-child{
 .content p{
 	margin-top:-20px;
 	margin-bottom:30px;
-	font-size:35px;
+	font-size:38px;
 }
 .content hr{
 	width:980px;
@@ -246,7 +246,7 @@ li:last-child{
 	border:solid 1px #dcdddf;
 	padding-top:15px;
 	padding-bottom:15px;
-	margin-top:21px;
+	margin-top:33px;
 	box-shadow:0px 0px 1px black;
 	font-size:16px;
 }
@@ -285,7 +285,7 @@ li:last-child{
 	border:solid 1px #dcdddf;
 	padding-top:15px;
 	padding-bottom:15px;
-	margin-top:19px;
+	margin-top:20.5px;
 	box-shadow:0px 0px 1px black;
 	font-size:16px;
 }
