@@ -254,9 +254,10 @@ li:last-child{
 	background-color:#70ba02;
 }
 .rightmenu{
-	top:-395px;
-	position:relative;
-	right:-825px;
+	top:750px;
+	position:absolute;
+	left:820px;;
+	
 }
 .rightmenu p{
 	font-size:15px;
@@ -306,3 +307,30 @@ li:last-child{
 	top:13px;
 	left:-6px;
 }
+.footer{
+	height:360px;
+	background-color:black;
+}
+/*.container{
+	width: 930px;
+	margin: 0 auto;
+}
+#wrapper{
+	width: 1155px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	z-index: 4;
+}
+#header{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+}
+#home{
+	position: relative;
+	height: 200px;
+	background-color: black;
+	min-width: 1200px;
+}*/
