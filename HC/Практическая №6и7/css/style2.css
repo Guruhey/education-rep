@@ -3,9 +3,12 @@ body, html{
 	margin: 0;
 	color: white;
 }
-body{
+html{
 	position: relative;
 	top: -40px;
+}
+body{
+	position: relative;
 }
 .menu_fon{
 	height: 200px;
@@ -76,7 +79,7 @@ li:last-child{
 	margin: 0 auto;
 }
 .content{
-	min-height: 930px;
+	min-height: 1020px;
 }
 .pryam
 {
@@ -174,13 +177,11 @@ li:last-child{
 	width:980px;
 	color:#dcdddf;
 }
-.lm .cent .rightmenu{
-	display: inline;
-}
+
 .lm{
 	list-style-type:none;
 	width:265px;
-	height:376px;
+	min-height:376px;
 	float:left;
 	margin-left:-25px;
 }
@@ -254,6 +255,7 @@ li:last-child{
 .rightmenu{
 	float:left;
 	margin-left:45px;
+	min-height: 380px;
 }
 .rightmenu p{
 	font-size:15px;
@@ -285,9 +287,9 @@ li:last-child{
 .text_cont{
 	width: 1150px;
 	margin: 0 auto;
+	min-height: 380px;
 }
 .rdmr{
-	top:1080px;
 	text-align:center;
 	width:119px;
 	height:15px;
@@ -315,7 +317,6 @@ li:last-child{
 	background-color:pink;
 }
 .rdmr2{
-	top:1080px;
 	text-align:center;
 	width:119px;
 	height:15px;
@@ -343,7 +344,63 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
-.footer{
+.footer_fon{
+	position: relative;
 	background-color:black;
-	width:360px;
+	min-width:1100px;
+	height: 360px;
+}
+.clear{
+	width: 980px;
+	clear: both;
+}
+.text_cont{
+	min-height: 380px;
+	min-width: 1150px;
+}
+.tri li div{
+	display:inline-block;
+}
+.dec{
+	list-style-type:none;
+	position: relative;
+}
+.tri{
+	width:265px;
+	margin-left:-21px;
+}
+.tri p{
+	position:relative;
+	top:-4px;
+	margin:0;
+	padding-bottom:10px;
+	margin-left:5px;
+	color:grey;
+}
+.tri li{
+	margin-bottom:5px;
+	border-bottom:solid 1px grey;
+	list-style-type:none;
+	
+}
+.tri span{
+	display: block;
+	margin-bottom:10px;
+	font-size:22px;
+}
+.tri li:first-child{
+	margin-top:15px;
+}
+.tri li:last-child{
+	border-bottom:none;
+}
+.tri, .centrfut{
+	display:inline-block;
+}
+.centerfut{
+
+}
+.centerfut p{
+	margin:0;
+	padding:0;
 }
