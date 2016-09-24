@@ -10,9 +10,15 @@ html{
 body{
 	position: relative;
 }
+.menu_osn{
+	height: 200px;
+	width: 980px;
+	margin: 0 auto;
+}
 .menu_fon{
 	height: 200px;
-	min-width: 980px;
+	width: 1525px;
+	min-width: 100%;
 	background: #000;
 }
 .container{
@@ -75,7 +81,7 @@ li:last-child{
 }
 .content_fon{
 	min-height: 930px;
-	min-width: 980px;
+	min-width: 1525px;
 	margin: 0 auto;
 }
 .content{
@@ -98,9 +104,50 @@ li:last-child{
 	border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+	position:absolute;
+	margin-top:-329px;
+	margin-left:100px;
+}
+.blockimg{
+	background-image:url(../images/zhenshina2.PNG);
+	width:830px;
+	height:420px;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blockimg_content {
+	margin-top:1px;
+	float:right;
+	background-color:black;
+	opacity: 0.7;
+	width: 300px;
+	height: 420px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blockimg_content h1{
+	opacity:1.0;
+	top:30px;
+	font-size:3em;
+	margin-bottom:0px;
+	text-align: center;
+	position: relative;
+	left:0px;
+}
+.blockimg_content h5{
+	top:38px;
+	margin-top:0px;
+	text-align: center;
+	position: relative;
+	left:0px;
+}
+.blockimg_content p{
 	position:relative;
-	top: -330px;
-	right: -100px;
+	text-align:center;
+	top:45px;
+	margin-top:0px;
+	margin-bottom:5px;
 }
 .menu{
 	margin-top:40px;
@@ -269,7 +316,7 @@ li:last-child{
 	margin-bottom:10px;
 }
 .rightmenu ul{
-	list-style-image:url(../icn.PNG);
+	list-style-image:url(../images/icn.PNG);
 }
 .rightmenu li{
 	font-size:22px;
@@ -347,16 +394,17 @@ li:last-child{
 .footer_fon{
 	position: relative;
 	background-color:black;
-	min-width:1100px;
-	height: 360px;
+	min-width:1525px;
+	
 }
 .clear{
 	width: 980px;
 	clear: both;
 }
+
 .text_cont{
 	min-height: 380px;
-	min-width: 1150px;
+	min-width: 980px;
 }
 .tri li div{
 	display:inline-block;
@@ -367,7 +415,8 @@ li:last-child{
 }
 .tri{
 	width:265px;
-	margin-left:-21px;
+	margin-left:-22px;
+	margin-top:10px;
 }
 .tri p{
 	position:relative;
@@ -386,7 +435,8 @@ li:last-child{
 .tri span{
 	display: block;
 	margin-bottom:10px;
-	font-size:22px;
+	font-size:1.5em;
+	font-weight: bold;
 }
 .tri li:first-child{
 	margin-top:15px;
@@ -394,13 +444,115 @@ li:last-child{
 .tri li:last-child{
 	border-bottom:none;
 }
-.tri, .centrfut{
-	display:inline-block;
+.tri, .centrfut, .footer_right{
+	float:left;
 }
-.centerfut{
+
+.tri a:hover{
+	background-color:white;
+}
+.tri a:link{
+	text-decoration:none;
+	color:black;
+}
+.tri a:visited{
+	color:#808080;
+}
+.tri a:active{
+	text-decoration:none;
+	color:grey;
+	background-color:pink;
+}
+.centrfut{
+margin-left:60px;
+width:320px;
+float:left;
+margin-top:5px;
 
 }
-.centerfut p{
+.centrfut {
+	width:320px;
+}
+.centrfut p{
 	margin:0;
-	padding:0;
+	margin-bottom:3px;
+	font-size:16px;
+	color:#808080
+}
+.rdmr3{
+	text-align:center;
+	width:119px;
+	height:15px;
+	border:solid 1px #dcdddf;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:30px;
+	box-shadow:0px 0px 1px black;
+	font-size:16px;
+	margin-left:0px;
+	background-color:white;
+}
+.rdmr3:hover{
+	background-color:#70ba02;
+}
+.rdmr3 a:link{
+	text-decoration:none;
+	color:black;
+}
+.rdmr3 a:visited{
+	text-decoration:none;
+	color:black;
+}
+.rdmr3 a:active{
+	text-decoration:none;
+	color:grey;
+	background-color:pink;
+}
+.footer_right{
+	float:left;
+	font-size: 14px;
+	line-height: 2.857;
+	width: 355px;
+	margin-top:-12px;
+	margin-left:-2px;	
+}
+.footer_right span{
+	font-size:1.5em;
+	font-weight: bold;
+}
+.footer_right li div{
+	display:inline-block;
+}
+.footer_right p{
+	position:relative;
+	top:-4px;
+	margin:0;
+	padding-bottom:5px;
+	margin-left:5px;
+	color:grey;
+}
+.footer_right li{
+	margin-bottom:5px;
+	border-bottom:solid 1px grey;
+	list-style-type:none;
+	
+}
+.footer_right li:last-child{
+	border-bottom:none;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_footer{
+	margin: 0 auto;
+}
+
+.fot_fot{
+	margin-left:275px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.des_fut p{
+	color:#808080;
 }
