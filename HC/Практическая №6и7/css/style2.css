@@ -1,52 +1,62 @@
+/*Убираем утступы для всего файла, и задаем цвет текста белым*/
 body, html{
 	padding: 0;
 	margin: 0;
 	color: white;
 }
+/*Фикс погрешностей*/
 html{
 	position: relative;
 	top: -40px;
+	overflow-x:hidden;
 }
 body{
 	position: relative;
 }
+/*Задаем стиль для шапки*/
 .menu_osn{
 	height: 200px;
 	width: 980px;
 	margin: 0 auto;
 }
+/*Исправляем ошибки с помощью этого блока*/
 .menu_fon{
 	height: 200px;
-	width: 1525px;
+	
 	min-width: 100%;
 	background: #000;
 }
+/*Делаем контейнер, чтобы наш контент был всегда по центру*/
 .container{
 	width: 980px;
 	margin: 0 auto;
 }
+/*Высота для надписи и меню*/
 .menu{
 	height: 105px;
 }
+/*Отступ для надписи*/
 .menu_name{
 	margin-left: 30px;
 }
+/*Выравниваем меню по правому краю*/
 .menu_spisok{
 	float: right;
 }
+/*Стиль для надписи*/
 .shrf{
 	margin-top:10px;
 	font-size:50px;
 	float: left;
 	color:#70ba02;
-}
+}/*Стиль для выравнивания надписи creative ideas*/
 .ideas{
 	font-size:14.5px;
 	position: relative;
 	bottom: -60px;
 	margin-left: -128px;
 	color:#848484;
-}
+}/*Стили для меню*/
 .menu2 a{
 	color:white;
 	text-decoration:none;
@@ -76,17 +86,20 @@ body{
 	padding:20px 24px 15px 24px;
 	position:relative;
 }
+/*Убираем нижнюю линюю*/
 li:last-child{
 	border-right:none;
 }
+/*Весь центральный контен*/
 .content_fon{
 	min-height: 930px;
-	min-width: 1525px;
-	margin: 0 auto;
+	min-width: 100%;
 }
+/*Минимальная высота контента*/
 .content{
 	min-height: 1020px;
 }
+/*Блок с картинком и менюшкой*/
 .pryam
 {
     border-radius:40px;
@@ -98,6 +111,7 @@ li:last-child{
 	border:solid 1px grey;
 	box-shadow: 0 12px 4px -4px rgba(0, 0, 0, .2);   
 }
+/* блок под картинку Картинка*/
 .pryam .menu_content_image{
 	width:830px;
 	height:420px;
@@ -108,6 +122,7 @@ li:last-child{
 	margin-top:-329px;
 	margin-left:100px;
 }
+/*сама картинка*/
 .blockimg{
 	background-image:url(../images/zhenshina2.PNG);
 	width:830px;
@@ -116,6 +131,7 @@ li:last-child{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
+/*Контент, который рядом с картинкой*/
 .blockimg_content {
 	margin-top:1px;
 	float:right;
@@ -126,6 +142,7 @@ li:last-child{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
+/*Надпись*/
 .blockimg_content h1{
 	opacity:1.0;
 	top:30px;
@@ -135,6 +152,7 @@ li:last-child{
 	position: relative;
 	left:0px;
 }
+/*Надпись */
 .blockimg_content h5{
 	top:38px;
 	margin-top:0px;
@@ -142,6 +160,7 @@ li:last-child{
 	position: relative;
 	left:0px;
 }
+/*Надпись */
 .blockimg_content p{
 	position:relative;
 	text-align:center;
@@ -152,6 +171,7 @@ li:last-child{
 .menu{
 	margin-top:40px;
 }
+/*для меню кружков*/
 .krug{
 	position:relative;
 	top:30px;
@@ -161,11 +181,13 @@ li:last-child{
 	border-radius:100px;
 	color:white;
 }
+/*текст в кружках*/
 .textkrug{
 	position:relative;
 	top:6px;
 	left:0px;
 }
+/*текст в кружках*/
 .cifra{
 	font-size:32px;
 	position:relative;
@@ -173,6 +195,7 @@ li:last-child{
 	top:10px;
 	color:white;
 }
+/*для меню кружков*/
 .menu3{
 	list-style-type:none;
 	height: 70px;
@@ -207,6 +230,7 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
+/*Центральная надпись*/
 .web 
 {
 	margin-top: 40px;
@@ -224,7 +248,7 @@ li:last-child{
 	width:980px;
 	color:#dcdddf;
 }
-
+/*Левая менюшка*/
 .lm{
 	list-style-type:none;
 	width:265px;
@@ -265,6 +289,7 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
+/*центральный текст*/
 .cen{
 	float: left;
 	margin-top:10px;
@@ -299,6 +324,7 @@ li:last-child{
 	text-decoration:none;
 	color:black;
 }
+/*Правый тест*/
 .rightmenu{
 	float:left;
 	margin-left:45px;
@@ -331,11 +357,13 @@ li:last-child{
 	text-decoration:none;
 	color:black;
 }
+/*блок для 3 блоков*/
 .text_cont{
 	width: 1150px;
 	margin: 0 auto;
 	min-height: 380px;
 }
+/*Кнопка Read More*/
 .rdmr{
 	text-align:center;
 	width:119px;
@@ -363,6 +391,7 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
+/*Вторая кнопка Read More*/
 .rdmr2{
 	text-align:center;
 	width:119px;
@@ -391,21 +420,23 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
+/*Футор*/
 .footer_fon{
-	position: relative;
+	/*position: relative;*/
 	background-color:black;
-	min-width:1525px;
-	
+	min-width:100%;
+
 }
+/*Спасательный блок*/
 .clear{
 	width: 980px;
 	clear: both;
 }
-
 .text_cont{
 	min-height: 380px;
 	min-width: 980px;
 }
+/*Левая часть футора*/
 .tri li div{
 	display:inline-block;
 }
@@ -463,6 +494,7 @@ li:last-child{
 	color:grey;
 	background-color:pink;
 }
+/*Центральная часть футора*/
 .centrfut{
 margin-left:60px;
 width:320px;
@@ -479,6 +511,7 @@ margin-top:5px;
 	font-size:16px;
 	color:#808080
 }
+/*Еще одна кнопка read more*/
 .rdmr3{
 	text-align:center;
 	width:119px;
@@ -508,6 +541,7 @@ margin-top:5px;
 	color:grey;
 	background-color:pink;
 }
+/*правая часть футора*/
 .footer_right{
 	float:left;
 	font-size: 14px;
@@ -540,19 +574,17 @@ margin-top:5px;
 .footer_right li:last-child{
 	border-bottom:none;
 }
-.wrapper{
-	width: 1000px;
-	margin: 0 auto;
-}
+
 .footer_footer{
 	margin: 0 auto;
 }
-
+/*Копирайт*/
 .fot_fot{
 	margin-left:275px;
 	padding-top:10px;
 	padding-bottom:20px;
 }
+/*Копирайт*/
 .des_fut p{
 	color:#808080;
 }

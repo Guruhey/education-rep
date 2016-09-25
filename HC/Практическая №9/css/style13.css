@@ -1,0 +1,11 @@
+table{
+	width:100%;
+	border-spacing:0px;
+}
+td{
+	text-align:center;
+	height:40px;
+}
+.anco{
+	background-color: #E6E6FA;
+}
