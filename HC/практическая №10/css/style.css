@@ -1,0 +1,47 @@
+*{
+	padding:0;
+	margin:0;
+}
+table{
+	width:100%;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+.kar{
+	width:190px;
+	padding:10px;
+}
+img{
+	float:left;
+	height:169px;
+	width:320px;
+	
+}
+.shapka{
+	text-align:center;
+	font-size:20px;
+	background-color:#228B22;
+	color:white;
+	font-size:16px;
+}
+.text{
+	padding:10px;
+	color:#444;
+}
+.stroki:nth-child(even) td:first-child{
+	background-color:#999;
+	border-left:solid 1px lime;
+}
+.stroki:nth-child(odd) td:last-child{
+	background-color:#999;
+	border-right:solid 1px lime;
+
+}
+.stroki:nth-child(odd) td:first-child{
+	background-color:white;
+	border-left:solid 1px lime;
+}
+.stroki:nth-child(even) td:last-child{
+	background-color:white;
+	border-right:solid 1px lime;	
+}
