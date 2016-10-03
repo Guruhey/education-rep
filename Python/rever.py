@@ -1,4 +1,5 @@
-def rev():
-	a=input('vvedite shto-to ')
-	print (a[::-1])
-rev()
+def rev(i):
+	print (i[::-1])
+#a=raw_input('vvedite shto-to ')
+a=input('vvedite shto-to ')
+rev(a)
