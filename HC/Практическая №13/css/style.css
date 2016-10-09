@@ -1,0 +1,117 @@
+body, html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:LemonChiffon;
+}
+.container{
+	width: 800px;
+	height:800px;
+	margin: 0 auto;
+
+}
+.osn_block{
+height:100%;
+min-height:100vh;
+
+}
+h2{
+	text-align:center;
+	padding:10px;
+	margin:0;
+}
+.img img{
+	width:800px;
+	height:460px;
+}
+.img p{
+	font-size:20px;
+	text-indent:15px;
+}
+.menu{
+	font-size:20px;
+	text-align:left;
+}
+.menu h3{
+	text-align:center;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:visited{
+	text-decoration:none;
+	color:black;
+}
+.img1 img{
+	width:400px;
+	height:300px;
+	margin-left:140px;
+}
+
+.img2 img{
+	margin-left:60px;
+	width:700px;
+	height:480px;
+}
+.ssilki{
+		margin-left:180px;
+		font-size:20px;
+}
+.text h3{
+	text-align:center;
+}
+.another{
+	font-size:20px;
+	text-indent:15px;
+}
+.gip{
+	position:absolute;
+	margin: 0 auto;
+	top:35%;
+	left:25%;
+}
+.img3 img{
+	margin-left:30px;
+	width:700px;
+	height:500px;
+}
+.img4 img{
+	margin-left:50px;
+	width:700px;
+	height:250px;
+}
+.img5{
+	width:700px;
+	height:400x;
+}
+.img6{
+	width:700px;
+	height:400px;
+	margin-left:143px;
+}
+.img7{
+	width:700px;
+	height:300px;
+	margin-left:143px;
+}
+.another1{
+	font-size:30px;
+	position:absolute;
+	margin-top:-450px;
+	margin-left:520px;
+}
+.img8{
+	width:500px;
+	height:400px;
+	margin-left:150px;
+}
+.fix{
+	position:fixed;
+	bottom:100px;
+	left:30px;
+	font-size:22px;
+	border:solid 1px grey;
+	background-color:Peru;
+}
