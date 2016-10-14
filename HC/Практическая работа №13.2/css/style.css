@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	min-height:800px;;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.obsh{
+	height: 270px;
+	width: 980px;
+	margin: 0 auto;
+}
+.logo{
+	width:90px;
+	height:90px;
+}
+.headit{
+	min-width:980px;
+	height:270px;
+	background-image:url(../images/textura.png);
+	background-repeat:repeat;
+}
+.devteam {
+	font-size:32px;
+	font-family: "segoe print";
+	color:white;
+	font-weight: bold;
+	margin-left:120px;
+	padding-top:100px;
+}
+.icn{
+	position:absolute;
+	margin-left:15px;
+	margin-top:80px;
+}
+.podstr{
+	margin-top:7px;
+	width:content;
+	position:relative;
+	color:#3494d4;
+	font-size:16px;
+	bottom:15px;
+}
+.menu a{
+	position:relative;
+	float:left;
+	top:5px;
+	width:110px;
+	text-align:center;
+	padding:10px;
+    background: #3494d4;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+	border:solid 1px black;
+}
+.menu_head:first-child{
+	margin-left:100px;
+	border-left:solid 1px black;
+}
+.menu a:hover{
+	background-color:#2a7db4;
+}
+.menu_head a{
+	text-decoration:none;
+	font-size:16px;
+	font-family: "segoe print";
+	color:white;
+}
+.cont{
+	margin-top:50px;
+}
+.center{
+	
+}
+.taranin{
+	float:left;
+	width:110px;
+	padding:3px;
+	margin-left:100px;
+	border:solid 1px black;
+    background: #3494d4;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+.taranin p{
+	margin-left:18px;
+	padding-left:8px;
+	color:white;
+	font-family: "segoe print";
+	font-size:16px;
+}
+.second{
+	min-height:30px;
+}
+.zagol p{
+	font-size:12px;
+	font-family: "segoe print";
+	float:left;
+	position:relative;
+	margin-top:10px;
+	color:grey;
+}
+.line{
+	float:left;
+	position:relative;
+	margin-top:22px;
+	margin-left:20px;
+	width:570px;
+	height:2px;
+	background: #3494d4;
+	-webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+.text{
+	margin-top:30px;
+}
+.text p{
+	word-wrap:break-word;
+	width:780px;
+	font-family: "Trebuchet MS";
+	font-size:17px;
+	text-indent:10px;
+	margin-left:100px;
+}
+.vibor ul{
+	margin-top:60px;
+	margin-left:100px;
+	list-style-type:none;
+	float:left;
+}
+.vibor li{
+	margin-bottom:5px;
+	font-size:18px;
+	font-family: "Trebuchet MS";
+}
+.image{
+	margin-top:22px;
+	margin-left:180px;
+}
