@@ -1,0 +1,5 @@
+Фамилия|Имя|Отчество|муж|1-10|Логин|Пароль|abs@mail.ru|Осебе
+Рыбалкин|Вадим|Дмитриевич|11-20|Муж|rootkit|123|Guruhey@icloud.com|123
+111|111|121|1-10|Муж|111|111|Guruhey@icloud.com|111
+Рыбалкин|Александр|Дмитриевич|21-30|Муж|Lolait|123|guruhey@icloud.com|KEkskskskskskskskdkdksksksksksksskskks
+купкцу|пупукпц|укпукпцукп|1-10|Муж|999|999|Guruhey@icloud.com|999
