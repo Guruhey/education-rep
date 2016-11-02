@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(../images/textura.png);
+	color:white;
+	font-family: "segoe print";
+	font-size:18px;
+}
+select{
+	background-color:white;
+	color:black;
+	font-family: "segoe print";
+	font-size:16px;
+}
+option{
+	background-color:grey;
+	color:white;
+	font-family: "segoe print";
+	font-size:16px;
+}
+p:first-child{
+	margin-top:40px;
+}
+form input:last-child{
+	margin-top:20px;
+	height:30px;
+	width:60px;
+	font-weight:bold;
+	background-color:#e7ebee;
+	cursor:pointer;
+	border: solid 1px #b4b4b4;
+}
+.res{
+	color:black;
+	font-family: "segoe print";
+	font-size:16px;
+	margin-top:20px;
+	border:solid 1px grey;
+}
+input{
+	width:200px;
+	height:30px;
+	color:black;
+	font-family: "segoe print";
+	font-size:16px;
+}
+.sub{
+	width:120px;
+	height:30px;
+	color:black;
+	font-family: "segoe print";
+	font-size:16px;
+	font-weight:bold;
+	border:solid 1px grey;
+	margin-top:20px;
+}
+.container1{
+	margin: 0 auto;
+	height:600px;
+	width:300px;
+}
+.ssilka {
+	text-align:center;
+	width:100px;
+	display:block;
+	height:100%;
+	color:white;
+	font-family: "segoe print";
+	font-size:18px;
+	position:fixed;
+}
+.line{
+	top:0;
+	left:0;
+	position:fixed;
+	float:left;
+	min-height:100%;
+	width:100px;
+}
+.line:hover{
+	background-color:#FF8000;
+	opacity:0.4;
+}
